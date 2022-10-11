@@ -32,6 +32,10 @@ h3 span {
 dt {
   font-weight: bold;
 }
+a img {
+  height: 1em;
+  padding-right: 0.5em;
+}
 .lede {
   font-size: 1.2rem;
   text-align: center;
