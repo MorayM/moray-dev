@@ -26,6 +26,9 @@ h3 {
 h3 span {
   font-weight: normal;
 }
+dt {
+  font-weight: bold;
+}
 .lede {
   font-size: 1.2rem;
   text-align: center;
