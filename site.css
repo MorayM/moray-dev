@@ -20,6 +20,9 @@ section {
 p {
   text-align: left;
 }
+h1, h2 {
+  text-align: center;
+}
 h3 {
   margin-bottom: 0;
 }
@@ -34,6 +37,7 @@ dt {
 }
 a img {
   height: 1em;
+  width: 1em;
   padding-right: 0.5em;
 }
 .tech-icons img {
