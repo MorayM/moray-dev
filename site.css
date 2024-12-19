@@ -61,3 +61,43 @@ a img {
   font-size: 0.8rem;
   text-transform: uppercase;
 }
+.screen-only {
+  display: block;
+}
+.print-only {
+  display: none;
+}
+
+@media print {
+  .print-only {
+    display: block;
+  }
+  .screen-only {
+    display: none;
+  }
+  .pagebreak {
+    page-break-before: always;
+  }
+  html {
+    padding: 0;
+  }
+  body {
+    font-size: 12pt;
+  }
+  h1, h2 {
+    margin: 0.5rem;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 6pt;
+  }
+  .lede {
+    font-size: 12pt;
+  }
+  .date-range {
+    font-size: 10pt;
+  }
+  .tech-icons {
+    display: none;
+  }
+}
