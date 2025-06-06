@@ -14,12 +14,12 @@
     <h1>Moray Macdonald</h1>
     <h2>Freelance Principal Engineer</h2>
     <img src="Moray_Chair_800.jpg" alt="Moray Macdonald sitting in an orange chair, smiling at the camera. He is wearing glasses and a blue shirt with pink flowers." class="profile-pic screen-only" />
-    <div class="tech-icons">
+    <!-- <div class="tech-icons">
       <img src="icons/typescript.svg" alt="The Typescript logo" />
       <img src="icons/database.svg" alt="An icon representing a database" />
       <img src="icons/graphql.svg" alt="The GraphQL logo" />
       <img src="icons/react.svg" alt="The React logo" />
-    </div>
+    </div> -->
     <p class="lede">
       Moray is a flexible and adaptable engineer with 14 years experience developing secure, production-ready systems using a broad range of technologies. He is confident with all parts of the software development lifecycle, from customer requirements gathering, through architecture design and implementation, to ongoing support and administration in production.
     </p>
@@ -29,22 +29,22 @@
     <section>
       <h2>Key Strengths</h2>
       <ul>
+        <li>System design, database modeling, infrastructure and architecture</li>
         <li>Taking MVPs from idea to launch</li>
         <li>Solo or Lead developer roles</li>
-        <li>System design, database modeling, infrastructure and architecture</li>
         <li>Taking ownership of legacy systems to ensure their longevity</li>
     </section>
     <section>
       <h2>Core Proficiencies</h2>
       <dl>
         <dt>Main Languages</dt>
-        <dd>Typescript, Javascript</dd>
+        <dd>Typescript, Python</dd>
         <dt>Other Languages</dt>
-        <dd>Python, C&sharp;, Java</dd><!-- I know about HTML escape codes too, even the weirder ones! -->
+        <dd>C&sharp;, Javascript, Java</dd><!-- I know about HTML escape codes too, even the weirder ones! -->
         <dt>Front-end technologies</dt>
-        <dd>React, Apollo, Astro. HTML5, CSS3 and SCSS. WCAG best practices and GDS (GOV.UK) design principles.</dd>
+        <dd>React, Apollo, Astro, Vite. HTML5, CSS3 and SCSS. WCAG best practices and GDS (GOV.UK) design principles.</dd>
         <dt>Back-end technologies</dt>
-        <dd>GraphQL, Express.js, ASP.NET, Pyramid. Prisma ORM, SQLAlchemy and Entity Framework.</dd>
+        <dd>GraphQL, Express.js, ASP.NET, Pyramid, REST-ful APIs. Prisma ORM, SQLAlchemy and Entity Framework.</dd>
         <dt>Databases</dt>
         <dd>MySQL, PostgreSQL, Microsoft SQL Server, Cassandra/Scylla and Elasticsearch. Administration of MySQL and SQL Server.</dd>
         <dt>Devops</dt>
@@ -54,13 +54,13 @@
       </dl>
     </section>
 
-    <section>
+    <section class="pagebreak">
       <h2>Case Study: Leading Groop's Technical Transformation</h2>
       <h3>Digital Communities Ltd <span>Lead Developer</span></h3>
       <p class="date-range">September 2019 &ndash; Present (ongoing)</p>
       <p>
         As Groop&rsquo;s first in-house developer, Moray took over all technical responsibilities from an external agency.
-        He has since helped evolve the platform through a complete infrastructure migration, performance overhauls,
+        As the company moved from startup to scale-up, Moray helped evolve the platform through a complete infrastructure migration, performance overhauls,
         and key feature development &ndash; all while building and mentoring a small team.
       </p>
       <h3>Highlights</h3>
@@ -73,18 +73,31 @@
       </ul>
     </section>
 
-    <section class="pagebreak">
+    <section>
       <h2>Experience</h2>
       <h3>Macdonald Technology <span>Consultant</span></h3>
       <p class="date-range">August 2023 &ndash; Present, Wiltshire/Remote</p>
       <p>Alongside his long-term roles, Moray provides consulting and development services to a range of smaller clients and startups.</p>
-      <p>This includes advising on technology and architecture choices, analysing market fit and advising on project planning. He is also involved with developing prototype systems and full MVPs to demonstrate both market and technology fit.</p>
+      <p>This includes advising on technology and architecture choices, analysing market fit and advising on project planning. He is also involved with developing prototype systems and full MVPs (supported by the latest AI tools) to demonstrate both market and technology fit.</p>
 
-      <h3>Cat In A Flat<span>Full Stack Developer (contract)</span></h3>
+      <h3>EduTech Client<span>Full Stack Developer</span></h3>
+      <p class="date-range">January 2025 &ndash; April 2025, Remote</p>
+      <p>A short term contract assisting a digital agency startup to migrate a legacy ASP.NET Web API to a modern GraphQL API written in Typescript and hosted on Azure, while keeping the same underlying SQL Server database. This was a complex task as data and audit trail integrity was a core requirement of the system, and the variant of SCD2 used by the data model made even simple operations very intricate.</p>
+
+      <h3>Professional Services Client A<span>Cloud Architecture Consultant</span></h3>
+      <p class="date-range">January 2024 &ndash; October 2024, Remote</p>
+      <p>To accompany their move from MVC to React, this client was also looking to move their mature and successful B2B product to Azure. The customer was also keen to remove this giant system's dependency on a single on-premise SQL Server instance, which had become a performance bottleneck.</p>
+      <p>Moray designed and prototyped a new event-driven architecture, making heavy use of Azure Service Bus distributing messages between microservices hosted in Azure Kubernetes Service as well as on-premise. In addition, the whole system was defined in Bicep which allowed the team to rapidly spin up and tear down test environments as needed.</p>
+
+      <h3>Cat In A Flat<span>Full Stack Developer</span></h3>
       <p class="date-range">September 2023 &ndash; December 2024, Bristol/Remote</p>
       <p>Moray was brought in to support the existing development team developing new features for and supporting users of Cat in a Flat's popular pet sitting app.</p>
       <p>With pressure from customers at the start of a busy time for the company, Moray had to quickly switchs skillset from an API-driven React tech stack to Cat in a Flat's Python-based stack in order to quickly deliver value to the development team and their community of pet-sitting customers.</p>
-      <p>As well as new development, Moray also supported the application hosting on AWS, and their mobile app, built with Cordova.</p>
+      <p>As well as new development, Moray also supported the application hosting on AWS, and their mobile app, built with Cordova (Ionic).</p>
+
+      <h3>Professional Services Client A<span>Development Consultant</span></h3>
+      <p class="date-range">September 2023 &ndash; November 2023, Remote</p>
+      <p>This client had a very successful business developing ASP.NET MVC applications, but were looking to incorporate modern React-based frontends into their products. Moray was brought in to provide a series of React prototypes and boilerplate repositories displaying best practices to help their developers get started.</p>
 
       <h3>Digital Communities Ltd (formerly Groop)<span>Lead Developer</span></h3>
       <p class="date-range">September 2019 &ndash; Present, Corsham/Remote</p>
@@ -92,23 +105,23 @@
 
       <h3>BMT Defence and Security<span>Software Developer</span></h3>
       <p class="date-range">October 2015 &ndash; September 2019, Bath</p>
-      <p>Working with a wide range of Government clients including Home Office and MoD, Moray delivered many projects to production and provided support directly to end users. Moray was involved with all stages of projects from requirements gathering and architectural design as well as developing, testing and support, using whichever technologies suit the customer&rsquo;s needs best, often having to learn new platforms quickly. Specialisations included front end development, GIS systems, graph database usage and DevOps.</p>
+      <p>Working with a wide range of Government clients including Home Office and MoD, Moray delivered many projects to production and provided 1st line support. Moray was involved with all stages of projects from requirements gathering and architectural design through development to testing and support, using whichever technologies suit the customer&rsquo;s needs best, often having to learn new platforms quickly. Specialisations included front end development, GIS systems, graph database usage and DevOps.</p>
 
       <h3>IPL Information Processing (now Civica Digital)<span>Service Engineer</span></h3>
       <p class="date-range">March 2014 &ndash; October 2015, Bath</p>
-      <p>Moray was the technical lead responsible for supporting an IPL-developed platform for secure data exchange. Responsible for the day-to-day running of the system, as well as being part of the helpdesk team supporting the customer. He was also responsible for systems, database and PKI administration and for performing upgrades to the IPL-developed system components.</p>
+      <p>Moray was the technical lead supporting an IPL-developed platform for secure data exchange He handled systems, database and PKI administration, on-call 1st line support and managed all deployments.</p>
 
       <h3>IPL Information Processing (now Civica Digital)<span>Software Engineer</span></h3>
       <p class="date-range">September 2011 &ndash; March 2014, Bath</p>
-      <p>Responsible for building bespoke web-based solutions using ASP.NET, C#, JavaScript and SharePoint. Moray performed low-mid level design of system components as well as taking responsibility for larger functional areas. Other responsibilities included unit testing, basic UI design and requirements gathering with customers.</p>
+      <p>Responsible for building bespoke web-based solutions using ASP.NET, C&sharp;, JavaScript and SharePoint. Other responsibilities included unit testing, basic UI design and requirements gathering with customers.</p>
     </section>
 
-    <section class="pagebreak">
+    <section>
       <h2>Education</h2>
       <h3>Durham University<span>MPhys Physics with Astronomy</span></h3>
       <p class="date-range">October 2007 &ndash; June 2011</p>
-      <h3>King Edward&rsquo;s School, Bath</h3>
-      <p class="date-range">1996 &ndash; 2007</p>
+      <h3>King Edward&rsquo;s School, Bath<span>4 A-levels</span></h3>
+      <p class="date-range">September 1996 &ndash; July 2007</p>
     </section>
 
     <section class="screen-only">
@@ -128,7 +141,7 @@
       </p>
     </section>
 
-    <section>
+    <section class="screen-only">
       <h2>Values</h2>
       <p>
         Moray actively supports LGBTQ+ owned and inclusive businesses, and offers preferential rates to climate-focused organisations, B-Corporations, and purpose-driven teams.
