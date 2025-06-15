@@ -110,4 +110,14 @@ a img {
   .tech-icons {
     display: none;
   }
+  .columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .two-column {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
 }
